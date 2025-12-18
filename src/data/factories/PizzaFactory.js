@@ -1,5 +1,5 @@
-import { Ingredient } from "../Models/Ingredient.js";
-import { Dish } from "../Models/Dish.js";
+import { Ingredient } from "../models/Ingredient.js";
+import { Dish } from "../models/Dish.js";
 
 export default class PizzaFactory {
   createDish() {

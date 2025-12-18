@@ -1,4 +1,4 @@
-import { Cook } from "./Models/Cook.js";
+import { Cook } from "./models/Cook.js";
 
 //factories
 import BurgerFactory from "./factories/BurgerFactory.js";
