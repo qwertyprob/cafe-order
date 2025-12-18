@@ -4,13 +4,15 @@ export class Dish {
   price;
   timeToCook;
   ingredients;
+  image;
 
-  constructor(name, description, timeToCook, ingredients = []) {
+  constructor(name, description, timeToCook, ingredients = [], image = "") {
     this.name = name;
     this.description = description;
     this.timeToCook = timeToCook;
     this.ingredients = ingredients;
     this.price = this.getPrice(ingredients);
+    this.image = image;
   }
 
   getPrice() {

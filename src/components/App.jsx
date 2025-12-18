@@ -21,6 +21,11 @@ export default function App() {
               <p className="font-bold mb-4 text-lg text-gray-800">
                 Price: ${dish.getPrice()}
               </p>
+              <img
+                src={dish.image}
+                alt={dish.name}
+                className="w-full w-30  object-cover rounded-lg mb-4"
+              />
 
               <h3 className="text-lg font-semibold mb-2 text-gray-900">
                 Ingredients:
